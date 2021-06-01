@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nusic</title>
+	<link rel="shortcut icon" href="images/icon.ico">
+	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="stylesheet" href="lightslider.css">
+	<script src="js/JQuery3.3.1.js"></script>
+    <script src="js/lightslider.js"></script>
+</head>
+<body BACKGROUND="images/FON.PNG" TEXT="#330066">
+<nav>
+        <a href="indexindex.html" class="logo">
+            <img src="images/logo.ico" alt="">
+    </a>
+    <input type="checkbox" class="menu-btn" id="menu-btn"/>
+        <label class="menu-icon" for="menu-btn">
+            <span class="nav-icon"></span>
+        </label>
+    <ul class="menu">
+        <li><a href="indexindex.html">HOME</a></li>
+        <li><a href="index.html">play # songs</a></li>
+        <li><a href="#">no worked</a></li>
+    </ul>
+</nav>
+<section id="latest">
+    <h2 class="latest-heading">Songs</h2>
+    <ul id="autoWidth2" class="cs-hidden">
+        <li class="item-a">
+            <div class="latest-box">
+                <div class="latest-b-img">
+                	 <a href="song1.html">
+                    <img src="images/musicon.png">
+                </div>
+                <div class="latest-b-text">
+                    <strong>Song №1</strong>
+                    <p>world_of_warcraft_01</p>
+                </div>
+            </div>
+        </li> 
+        <li class="item-a">
+            <div class="latest-box">
+                <div class="latest-b-img">
+                	 <a href="song1.html">
+                    <img src="images/musicon.png">
+                </div>
+                <div class="latest-b-text">
+                    <strong>Song №2</strong>
+                    <p>world_of_warcraft_02</p>
+                </div>
+            </div>
+        </li>
+        <li class="item-a">
+            <div class="latest-box">
+                <div class="latest-b-img">
+                	 <a href="song1.html">
+                    <img src="images/musicon.png"></a>
+                </div>
+                <div class="latest-b-text">
+                    <strong>Song №3</strong>
+                    <p>world_of_warcraft_03</p>
+                </div>
+            </div>
+        </li>
+        <li class="item-a">
+            <div class="latest-box">
+                <div class="latest-b-img">
+                	 <a href="song1.html">
+                    <img src="images/musicon.png">
+                </div>
+                <div class="latest-b-text">
+                    <strong>Song №4</strong>
+                    <p>world_of_warcraft_04</p>
+                </div>
+            </div>
+        </li>
+        <li class="item-a">
+            <div class="latest-box">
+                <div class="latest-b-img">
+                	 <a href="song1.html">
+                    <img src="images/musicon.png">
+                </div>
+                <div class="latest-b-text">
+                    <strong>Song №5</strong>
+                    <p>world_of_warcraft_05</p>
+                </div>
+            </div>
+        </li>
+        <li class="item-a">
+            <div class="latest-box">
+                <div class="latest-b-img">
+                	 <a href="song1.html">
+                    <img src="images/musicon.png">
+                </div>
+                <div class="latest-b-text">
+                    <strong>Song №6</strong>
+                    <p>world_of_warcraft_06</p>
+                </div>
+            </div>
+        </li>
+        <li class="item-a">
+            <div class="latest-box">
+                <div class="latest-b-img">
+                	 <a href="song1.html">
+                    <img src="images/musicon.png">
+                </div>
+                <div class="latest-b-text">
+                    <strong>Song №7</strong>
+                    <p>world_of_warcraft_07</p>
+                </div>
+            </div>
+        </li>
+    </section>
+<!--footer-->
+<footer>
+    <p>Страница сделона в образавательных целях</p>
+    <p>Не для продажи. 2021 - Сделано в ознокомительных целях</p>
+</footer>
+    <script>
+      $(document).ready(function() {
+    $('#autoWidth,#autoWidth2').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth,#autoWidth2').removeClass('cS-hidden');
+        } 
+    });  
+  });
+</script>  
+</body>
+</html>
